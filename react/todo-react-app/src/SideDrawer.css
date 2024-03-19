@@ -1,0 +1,19 @@
+.drawerOpen {
+  width: 240px;
+  transition: width 0.3s ease;
+}
+
+.drawerClosed {
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+.contentOpen {
+  margin-left: 240px;
+  transition: margin-left 0.3s ease;
+}
+
+.contentClosed {
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
