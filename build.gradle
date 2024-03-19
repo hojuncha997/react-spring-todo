@@ -28,6 +28,14 @@ dependencies {
 
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//    jjwt 라이브러리 디펜던시 추가
+//    compile group: 'io.jsonwebtoken', name: 'jjwt', version:'0.9.1'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+
+//    스프링 시큐리티 디펜던시 추가
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+
+
 }
 
 tasks.named('test') {

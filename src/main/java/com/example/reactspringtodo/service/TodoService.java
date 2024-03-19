@@ -32,6 +32,8 @@ public class TodoService {
 
     //retrieve 조회하기
     public List<TodoEntity> retrieve(final String userId) {
+        log.info(userId);
+        log.info("TodoService : retrieve() ");
         return repository.findByUserId(userId);
     }
 
